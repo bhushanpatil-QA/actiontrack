@@ -1,0 +1,16 @@
+# Copy to actiontrack.toml and fill in. actiontrack only ever calls `draft_tool`.
+
+[gmail_mcp]
+transport  = "stdio"                       # "stdio" (start a local server) or "http"
+command    = "npx"                         # stdio: program that starts your Gmail MCP server
+args       = ["-y", "<your-gmail-mcp-server-package>"]
+# env      = { GOOGLE_CREDENTIALS = "path/to/credentials.json" }
+# url      = "https://your-gmail-mcp.example.com/mcp"   # http transport instead of command/args
+draft_tool = "create_draft"                # the server's create-draft tool name (never a send tool)
+arg_to      = "to"                         # argument names the draft tool expects
+arg_subject = "subject"
+arg_body    = "body"
+to_as_list  = false                        # true if the tool wants "to" as a list
+
+[followup]
+sender_name = "Bhushan"

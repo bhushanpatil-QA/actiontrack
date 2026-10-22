@@ -1,0 +1,15 @@
+# local data and secrets
+.actiontrack/
+*.db
+people.toml
+actiontrack.toml
+.env
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+.pytest_cache/

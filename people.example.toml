@@ -1,0 +1,36 @@
+# Copy to people.toml. Use dummy addresses in git; keep real ones local (people.toml is git-ignored).
+[[person]]
+name  = "Priya Nair"
+email = "priya.nair@example.com"
+
+[[person]]
+name  = "Priya Shah"
+email = "priya.shah@example.com"
+
+[[person]]
+name  = "Rahul Mehta"
+email = "rahul.mehta@example.com"
+
+[[person]]
+name  = "Rahul Verma"
+email = "rahul.verma@example.com"
+
+[[person]]
+name  = "Anita Desai"
+email = "anita.desai@example.com"
+
+[[person]]
+name  = "Sam Okafor"
+email = "sam.okafor@example.com"
+
+[[person]]
+name  = "Meera Iyer"
+email = "meera.iyer@example.com"
+
+[[person]]
+name  = "Karan Joshi"
+email = "karan.joshi@example.com"
+
+[[person]]
+name  = "Lena Fischer"
+email = "lena.fischer@example.com"

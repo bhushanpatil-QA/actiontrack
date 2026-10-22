@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "actiontrack"
+version = "1.0.0"
+description = "Track action items from markdown meeting notes and draft follow-up emails (Gmail drafts only, never sends)."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["PyYAML>=6.0", "mcp>=1.2"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+actiontrack = "actiontrack.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
